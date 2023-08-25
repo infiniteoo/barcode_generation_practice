@@ -25,3 +25,27 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.sentence-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.word-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between words */
+}
+
+.word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.word svg {
+  width: 150px; /* Adjust the SVG width as needed */
+  height: auto;
+}
